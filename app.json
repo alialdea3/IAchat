@@ -1,0 +1,28 @@
+{
+  "name": "Socket-Chat-Example",
+  "description": "Mi primera aplicación con socket.io",
+  "website": "https://github.com/socketio/chat-example",
+  "repository": "https://github.com/socketio/chat-example",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "realtime",
+    "websocket",
+    "openai"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0",
+    "openai": "^3.5.0"
+  },
+  "addons": [],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs"
+  }
+}
